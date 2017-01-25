@@ -1,0 +1,13 @@
+service: ivan-levendyan-resume
+provider:
+  name: aws
+  runtime: nodejs4.3
+  stage: prod
+  region: us-west-2
+functions:
+  resume:
+    handler: handler.resume
+    events:
+      - http:
+          path: resume
+          method: get

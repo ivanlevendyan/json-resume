@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Ivan Levendyan",
+    "label": "Systems Engineer",
+    "picture": "",
+    "email": "ivan.levendyan@dell.com",
+    "phone": "(403) 970-4857",
+    "website": "emc.com",
+    "summary": "We help businesses to store, manage, protect and analyze their most valuable asset '97 information '97 in a more agile, trusted and cost-efficient way.   I am experienced specialist with pre-sales and business development background. Passion for technology and connecting it with people is what keeps me going and makes me a top performer in these roles. MBA and Engineering degrees also help a bit.",
+    "location": {
+      "address": "500 4th Ave SW",
+      "postalCode": "T2P0V2",
+      "city": "Calagry",
+      "countryCode": "US",
+      "region": "Alberta"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://ca.linkedin.com/in/ilevendyan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Dell EMC",
+      "position": "Partner Solution Lead",
+      "website": "emc.com",
+      "startDate": "2012-09",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Development and execution of technical sales strategies for business partners across Western Canada and, later, nationally",
+        "Responsible for $140M+ business partner quota",
+        "Increasing EMC mind and wallet share of strategic (CIO) and technical (CTO) partner stakeholders",
+        "Technical evangelism, solution workshops/webinars, POCs, technical account management and other sales activities",
+        "Developing a tandem between EMC team and business partner teams",
+        "Incremental channel goal attainment for the area over and above natural growth: 2013 '96 117%, 2014 '96 146%, 2015 '96 136%",
+        "Increased EMC revenue share for a key partner to over 40% by developing partner professional services practice",
+        "Developed reusable solution portfolio for partners to drive down cost of sales and simplify technology enablement cycle",
+        "EMC Q1 2016 '93Gold'94 Award, EMC HiPo Systems Engineer, consistent '93far exceeds expectations'94 performance rating"
+      ]
+    },
+    {
+      "company": "Dell (Quest) Software ",
+      "position": "Technical Product Manager",
+      "website": "Quest.com",
+      "startDate": "2006-02",
+      "endDate": "2010-01",
+      "summary": "",
+      "highlights": [
+        "Marketing requirements (MRD) execution, tech specification development, collaboration with R&D",
+        "Technical sales support: RFP, technical positioning, R&D escalation, API help",
+        "Created sales tools and collateral (competitive matrixes, demo/sales scripts, white papers etc.) and coached Sales on usage",
+        "Increased product revenue by $1M+ by developing sales tools that proved to win a number of deals",
+        "Contributed to 15% revenue increase by coaching sales representatives and supporting sales process of Quest solutions"
+      ]
+    },
+    {
+      "company": "Dell (Quest) Software ",
+      "position": "Pre-Sales Support Engineer",
+      "website": "Quest.com",
+      "startDate": "2010-02",
+      "endDate": "2001-07",
+      "summary": "",
+      "highlights": [
+        "Worked with sales and R&D as a customer advocate, served as a single point of contact",
+        "In the list of Top 5 Canadian engineers based on customer feedback"
+      ]
+    },
+    {
+      "company": "Southern Federal University",
+      "position": "Software Developer",
+      "website": "sfedu.ru",
+      "startDate": "2003-02",
+      "endDate": "2005-07",
+      "summary": "",
+      "highlights": [
+        "Developed various university and online freelance projects on Visual StudioC++, focusing on telephony and sensors"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "HEC Montreal",
+      "area": "MBA",
+      "studyType": "Masters",
+      "startDate": "2011-08",
+      "endDate": "2012-08",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Southern Federal University",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2000-05",
+      "endDate": "2005-06",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}}
