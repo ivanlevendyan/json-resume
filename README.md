@@ -1,7 +1,7 @@
 # JSON Resume
 
 One click (sort of) deployment of your resume to AWS API Gateway and Lambda.
-Current endpoint: https://xoenhrn299.execute-api.us-west-2.amazonaws.com/prod/resume
+Current endpoint: https://a7aqduac5k.execute-api.us-west-2.amazonaws.com/prod/resume
 
 ## Installation
 
