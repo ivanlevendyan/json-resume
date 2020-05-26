@@ -1,8 +1,5 @@
 'use strict';
 
-let AWS = require('aws-sdk');
-
-let s3 = new AWS.S3({apiVersion: '2012-09-25'});
 let fs = require('fs');
 let path = require("path");
 
