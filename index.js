@@ -5,7 +5,7 @@ let path = require("path");
 
 module.exports.resume = (event, context, callback) => {
 
-    const obj = fs.readFileSync('./resumne.json', 'utf8', function(err, data) {
+    const obj = fs.readFileSync('./resume.json', 'utf8', function(err, data) {
         if(err) {
             callback(err);
         }
