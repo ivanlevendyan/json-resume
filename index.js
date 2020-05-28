@@ -24,6 +24,6 @@ module.exports.resume = (req, res) => {
         "body": obj
     };
 
- res.send(JSON.parse(data.substring(16)));
+ res.send(JSON.parse(obj));
     
 };
