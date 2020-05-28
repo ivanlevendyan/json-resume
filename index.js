@@ -22,7 +22,7 @@ module.exports.resume = (req, res) => {
     };
 
  res.send('<html>
- <p>The data is '+results+'</p>
+ <p>The data is '+response+'</p>
  </html>');
           
 };
