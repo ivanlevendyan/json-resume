@@ -3,7 +3,7 @@
 let fs = require('fs');
 let path = require("path");
 
-module.exports.resume = (data, context, callback) => {
+module.exports.resume = (data, context) => {
 
     const obj = fs.readFileSync('./resume.json', 'utf8', function(err, data) {
         if(err) {
