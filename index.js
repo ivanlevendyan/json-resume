@@ -1,8 +1,11 @@
+
 'use strict';
 
 let fs = require('fs');
+let path = require("path");
+const escapeHtml = require('escape-html');
 
-module.exports.resume = (data, context, callback) => {
+module.exports.resume = (req, res) => {
 
     const obj = fs.readFileSync('./resume.json', 'utf8', function(err, data) {
         if(err) {
@@ -18,6 +21,6 @@ module.exports.resume = (data, context, callback) => {
         "body": obj
     };
 
-    callback(null, null, response);
+  res.send(response);
 
 };
