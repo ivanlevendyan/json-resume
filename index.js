@@ -7,7 +7,7 @@ let escapeHtml = require('escape-html');
 
 module.exports.resume = (req, res) => {
 
-    const obj = fs.readFileSync('./resume.json', 'utf8', function(err, data) {
+    const obj = fs.readFileSync('./resume.html', 'utf8', function(err, data) {
         if(err) {
             callback(err);
         }
@@ -21,8 +21,6 @@ module.exports.resume = (req, res) => {
         "body": obj
     };
 
- res.send('<html>
- <p>The data is '+response+'</p>
- </html>');
+ res.send(response);
           
 };
