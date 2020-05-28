@@ -26,6 +26,6 @@ module.exports.resume = (req, res) => {
 
  let json = JSON.parse(obj);
 
- res.send(JSON.stringify(json));
+ res.send(json);
     
 };
