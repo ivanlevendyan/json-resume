@@ -1,14 +1,21 @@
-
 'use strict';
 
+let fs = require('fs');
+let path = require("path");
 let escapeHtml = require('escape-html');
-let express = require('express');
 
 module.exports.resume = (req, res) => {
 
-    var app = express();
-    app.get('/test', function(req, res) {
-    res.sendFile('./resume.html', {root: __dirname })
+    const obj = fs.readFileSync('./resume.html', 'utf8', function(err, data) {
+        if (!err) {
+            console.log('received data: ' + data);
+            response.writeHead(200, {'Content-Type': 'text/html'});
+            response.write(data);
+            response.end();
+        } else {
+            console.log(err);
+        }
+        
     });
     
 };
