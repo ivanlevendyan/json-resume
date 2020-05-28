@@ -24,9 +24,11 @@ module.exports.resume = (req, res) => {
         "body": obj
     };
     
- let json = JSON.stringify(obj, null, 2)
+ 
 
+res.writeHead(200, {'Content-Type': 'text/plain'});
+ res.write(data);
+ res.end();
 
- res.send(json);
     
 };
