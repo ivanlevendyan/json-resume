@@ -21,6 +21,8 @@ module.exports.resume = (req, res) => {
         "body": obj
     };
 
-  res.send(response);
-
+ res.send('<html>
+ <p>The data is '+results+'</p>
+ </html>');
+          
 };
