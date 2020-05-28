@@ -3,7 +3,7 @@
 
 let fs = require('fs');
 let path = require("path");
-const escapeHtml = require('escape-html');
+let escapeHtml = require('escape-html');
 
 module.exports.resume = (req, res) => {
 
