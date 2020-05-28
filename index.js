@@ -18,6 +18,6 @@ module.exports.resume = (data, context, callback) => {
         "body": obj
     };
 
-    callback(null, 'Success!');
+    callback(null, null, response);
 
 };
