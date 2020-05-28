@@ -19,11 +19,11 @@ module.exports.resume = (req, res) => {
     const response = {
         "statusCode": 200,
         "headers": {
-            "Content-Type": "text/html"
+            "Content-Type": "text/json"
         },
         "body": obj
     };
 
- res.json(obj);
+ res.json(response);
     
 };
