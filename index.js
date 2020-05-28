@@ -7,7 +7,7 @@ let escapeHtml = require('escape-html');
 
 module.exports.resume = (req, res) => {
 
-    const obj = fs.readFileSync('./resume.html', 'utf8', function(err, data) {
+    const obj = fs.readFileSync('./resume.txt', 'utf8', function(err, data) {
         if(err) {
             callback(err);
         }
